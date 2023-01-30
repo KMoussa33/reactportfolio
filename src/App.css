@@ -1,12 +1,13 @@
 body {
     font-family: 'Open Sans', sans-serif;
+    background-image: url('./app/assets/img/grey.jpg');
 }
 
 h1,
 h2,
 h3,
 .card-body > .card-title {
-    font-family: 'Lobster', cursive;
+    font-family: 'Roboto Condensed', cursive;
 }
 
 .card-title {
@@ -14,12 +15,16 @@ h3,
     font-size: 1.25rem;
 }
 
+h1 {
+    color:#f5faf8;
+}
+
 h2 {
-    color: #3e4441;
+    color: #f5faf8;
 }
 
 .card-img-overlay .card-title {
-    color: white;
+    color: rgb(245, 243, 243);
     background-color: rgba(0, 0, 0, 0.5);
 }
 
@@ -48,7 +53,7 @@ h2 {
 }
 
 .navbar-dark {
-    background-color: #f8f6f8;
+    background-color: #fcf8fc;
     background-image: linear-gradient(to right, #3b463f, #dde4e0, #868d89);
     margin-bottom: 2rem;
     min-height: 8rem;
