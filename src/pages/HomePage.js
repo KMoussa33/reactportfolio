@@ -13,7 +13,7 @@ const HomePage = () => {
                     alt='black and white AI rendering'
                 />
                 <CardImgOverlay>
-                    <CardTitle>Web Developer in training</CardTitle>
+                    <CardTitle>Web Developer in training...</CardTitle>
                 </CardImgOverlay>
             </Card>
         </Container>
